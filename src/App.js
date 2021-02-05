@@ -9,6 +9,9 @@ import { ItemHook } from "./components/ItemHook";
 function App() {
   return (
     <div className="App">
+      {/* <DataFeatch /> */}
+      <DataFeatchById />
+
       <CounterHook />
       <hr />
       <FormHook />
