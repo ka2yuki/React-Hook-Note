@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { DataFeatchById } from "./components/DataFeatchById"
 // import Counter from "./components/Counter";
 import { CounterHook } from "./components/CounterHook";
 import { EffectHook } from "./components/EffectHook";

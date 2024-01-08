@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function DataFeatchById() {
+export const DataFeatchById = () => {
   const [post, setPost] = useState(null);
   const [id, setId] = useState(1);
   const [loading, setLoading] = useState(true);
@@ -24,5 +24,3 @@ function DataFeatchById() {
     </div>
   );
 }
-
-export default DataFeatchById;
