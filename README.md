@@ -1,4 +1,4 @@
-- [my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)
+[my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)
   
 # Componentについて
 ### Next.js-Contentlayer のコンポーネントを調べたメモ
@@ -40,4 +40,4 @@ useMemo化された？useMemo内でコールバックされた
 
 ---
 📘[React.dev](https://ja.react.dev/)
-
+  - [Add React to an Existing Project](https://react.dev/learn/add-react-to-an-existing-project)
