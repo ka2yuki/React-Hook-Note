@@ -1,8 +1,10 @@
 # Componentについて
+### Next.js-Contentlayer のコンポーネントを調べたメモ
+
 ```js
 <Component components={components} />
 ```
-Next.js-Contentlayer の上記コンポーネントを調べたメモ
+⬆️これ⬆️
 
 ```js
 type MDXContentProps = {
@@ -10,9 +12,9 @@ type MDXContentProps = {
   components?: MDXComponents
 }
 
-export const test(): React.FC<MDXContentProps> => {...省略}
+export const test(...etc): React.FC<MDXContentProps> => {...省略}
 ```
-`<>`内の `MDXContentProps`は **Return** props**の**型。
+`React.FC`の`<>`内の `MDXContentProps`は **Return** propsの型。
 
 ```js
 export const createComponents(a, b) => {
@@ -21,10 +23,10 @@ export const createComponents(a, b) => {
 ```
 Contentlayerでは `React.useMemo()`内でコールバック？で`test()`関数を呼び出しているみたいなので  
 useMemo化された？useMemo内でコールバックされた 
-- React.FCコンポーネントで
-- propsは`<MDXContentProps>`となる  
+- React.FCコンポーネント
+- propsは`<MDXContentProps>`
   
-と思われる。
+となると思われる。
 
 [リソース：contentlayer/packages/../**.ts | github.com](https://github.com/contentlayerdev/contentlayer/blob/2f491c540e1d3667577f57fa368b150bff427aaf/packages/next-contentlayer/src/hooks/useMDXComponent.ts#L29)
 
