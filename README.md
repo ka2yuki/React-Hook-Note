@@ -3,8 +3,8 @@
 # LEARN REACT
     
 [コンポーネントを純粋に保つ: チャレンジ 3/3:の答えから](https://ja.react.dev/learn/keeping-components-pure#challenges)  
-`push、pop、reverse、sort` は元の配列を書き換えてしまいますが  
-`slice、filter、map` は新しい配列を作成  
+- 元の配列を書き換えてしまう：`[].``push、pop、reverse、sort` 
+- 元の配列を書き換えず新しい配列を作成：`slice、filter、map` 
     
 [UI をツリーとして理解する](https://ja.react.dev/learn/understanding-your-ui-as-a-tree#recap)
 - ツリー構造とは、何らかの物どうしの関係性を表現する際の一般的な方法である。UI をモデル化するために多用される。...レンダーパフォーマンスの理解とデバッグに役立つ。
