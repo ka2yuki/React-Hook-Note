@@ -2,6 +2,18 @@
 
 # LEARN REACT
     
+[UI の記述](  
+各セクションの概要  
+- React は、ユーザインターフェース（UI）を表示するための JavaScript ライブラリ
+- HTMLをJSXに[コンバートしてくれるサイト](https://transform.tools/html-to-jsx)がある
+- 波括弧で JavaScript を含める
+- リスト各要素で`key`の必要性：> 通常データベースの ID を key として使うことになるでしょう。key は、リストが変更されても各アイテムのリスト内の位置を React が追跡できるようにするために必要です。| リストのレンダー
+- React レンダーツリー: データの流れやレンダーパフォーマンスを理解する際に有用です。| UI をツリーとして理解する
+![img](https://ja.react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fgeneric_render_tree.png&w=1080&q=75)
+- モジュール依存関係ツリー: ビルドツールでよく使用されます。バンドルサイズが大きいと、React アプリのユーザ体験は悪化します。モジュール依存関係ツリーを理解することは、そのような問題をデバッグするのに役立ちます。| UI をツリーとして理解する
+![img](https://ja.react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fgeneric_dependency_tree.png&w=1080&q=75)
+
+
 [コンポーネントを純粋に保つ: チャレンジ 3/3:の答えから](https://ja.react.dev/learn/keeping-components-pure#challenges)  
 - 元の配列を書き換えてしまう：`[].``push、pop、reverse、sort` 
 - 元の配列を書き換えず新しい配列を作成：`slice、filter、map` 
