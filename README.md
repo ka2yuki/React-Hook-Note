@@ -1,8 +1,7 @@
 [my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)  
 
 # LEARN REACT
-    
-[UI の記述](https://ja.react.dev/learn/describing-the-ui)  
+## [UI の記述](https://ja.react.dev/learn/describing-the-ui)  
 各セクションの概要  
 - React は、ユーザインターフェース（UI）を表示するための JavaScript ライブラリ
 - HTMLをJSXに[コンバートしてくれるサイト](https://transform.tools/html-to-jsx)がある
