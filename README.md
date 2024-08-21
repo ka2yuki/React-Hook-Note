@@ -27,14 +27,14 @@
 - DOM へのコミット（テーブルに注文の品を提供する）  
   
     
-- [ ] state はスナップショットである. ※要詳細を読み込み  
+■state はスナップショットである. ※要詳細を読み込み  
 
 [一連の state の更新をキューに入れる](https://ja.react.dev/learn/adding-interactivity#queueing-a-series-of-state-updates)  
 - すでに実行されているコード内の state は変更されない。
 - `setScore(score + 1)` を  `setScore(s => s + 1)` に置き換えることで 複数回の state の更新がキューに入れられます。
   
   
-- [ ] [state 内のオブジェクトの更新](https://ja.react.dev/learn/adding-interactivity#updating-objects-in-state)    
+[state 内のオブジェクトの更新](https://ja.react.dev/learn/adding-interactivity#updating-objects-in-state)    
   
 state に保持されたオブジェクトと配列を直接書き換えるべきではありません。オブジェクトを更新したい場合、代わりに新しいオブジェクトを作成（または既存のもののコピーを作成）し、それを使って state をセットする必要があります。
 
