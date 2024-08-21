@@ -26,6 +26,10 @@
 - DOM へのコミット（テーブルに注文の品を提供する）
 
 
+
+
+---
+
 [コンポーネントを純粋に保つ: チャレンジ 3/3:の答えから](https://ja.react.dev/learn/keeping-components-pure#challenges)  
 - 元の配列を書き換えてしまう：`[].``push、pop、reverse、sort` 
 - 元の配列を書き換えず新しい配列を作成：`slice、filter、map` 
