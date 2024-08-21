@@ -1,5 +1,7 @@
-[my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)
-  
+[my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)  
+
+# LEARN REACT
+    
 [コンポーネントを純粋に保つ: チャレンジ 3/3:の答えから](https://ja.react.dev/learn/keeping-components-pure#challenges)  
 `push、pop、reverse、sort` は元の配列を書き換えてしまいますが  
 `slice、filter、map` は新しい配列を作成  
