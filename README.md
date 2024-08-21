@@ -12,6 +12,19 @@
 - モジュール依存関係ツリー: ビルドツールでよく使用されます。バンドルサイズが大きいと、React アプリのユーザ体験は悪化します。モジュール依存関係ツリーを理解することは、そのような問題をデバッグするのに役立ちます。| UI をツリーとして理解する
 ![img](https://ja.react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fgeneric_dependency_tree.png&w=1080&q=75)
 
+## インタラクティビティの追加  
+各セクションの概要  
+[state：コンポーネントのメモリ](https://ja.react.dev/learn/adding-interactivity#state-a-components-memory)  
+コードサンプル
+- 次へ
+- 表示/非表示
+  
+[レンダーとコミット](https://ja.react.dev/learn/adding-interactivity#render-and-commit)  
+コンポーネントは 画面上に表示される前に React によってレンダーされる必要があります。  
+- レンダーのトリガ（お客様の注文を厨房に伝える）
+- コンポーネントのレンダー（厨房で注文の品を料理する）
+- DOM へのコミット（テーブルに注文の品を提供する）
+
 
 [コンポーネントを純粋に保つ: チャレンジ 3/3:の答えから](https://ja.react.dev/learn/keeping-components-pure#challenges)  
 - 元の配列を書き換えてしまう：`[].``push、pop、reverse、sort` 
