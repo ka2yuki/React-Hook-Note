@@ -19,13 +19,15 @@
 - 次へ
 - 表示/非表示
   
+  
 [レンダーとコミット](https://ja.react.dev/learn/adding-interactivity#render-and-commit)  
 コンポーネントは 画面上に表示される前に React によってレンダーされる必要があります。  
 - レンダーのトリガ（お客様の注文を厨房に伝える）
 - コンポーネントのレンダー（厨房で注文の品を料理する）
-- DOM へのコミット（テーブルに注文の品を提供する）
+- DOM へのコミット（テーブルに注文の品を提供する）  
   
-- [ ] state はスナップショットである. 要詳細  
+    
+- [ ] state はスナップショットである. ※要詳細を読み込み  
 
 [一連の state の更新をキューに入れる](https://ja.react.dev/learn/adding-interactivity#queueing-a-series-of-state-updates)  
 - すでに実行されているコード内の state は変更されない。
