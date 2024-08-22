@@ -6,19 +6,28 @@
 - `<MyButton />` が大文字で始まっていることで React のコンポーネントであるということを示しています。常に大文字で始める必要がありHTML タグは小文字でなければなりません。
 - `export default` キーワードについて：[MDN](https://developer.mozilla.org/docs/web/javascript/reference/statements/export), [javascript.info](https://javascript.info/import-export)
   
-### データの表示
+## データの表示
 `className="avatar"`は 文字列を渡しており   
 `src={user.imageUrl}`は JavaScript の `user.imageUrl` 変数の値を読み込み その値を src属性 として渡します  
 `style={{}}` は `style={ }` という JSX内にある通常の `{}` オブジェクトです。  
   
-### 条件付きレンダー
+## 条件付きレンダー
 [コンテンツ出し分け：Code](https://ja.react.dev/learn#conditional-rendering)
 
-### リストのレンダー
+## リストのレンダー
 map関数 の使用例
 
-### イベントに応答する
+## イベントに応答する
 `<button onClick={handleClick}>`は *渡すだけ*。
+
+## フックの使用
+- `use` で始まる関数は、フック (Hook) と呼ばれます。
+- [API リファレンスで他の組み込みフックを](https://ja.react.dev/reference/react)
+- 独自フックも作成することも。
+
+## コンポーネント間でデータを共有する
+「state のリフトアップ（持ち上げ）」について
+
 
 
 
