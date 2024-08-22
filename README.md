@@ -1,5 +1,17 @@
 [my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)  
 
+# クイックスタートからの抜粋
+## コンポーネントの作成とネスト
+- React におけるコンポーネント：マークアップを返す JavaScript 関数  
+- `<MyButton />` が大文字で始まっていることで React のコンポーネントであるということを示しています。常に大文字で始める必要がありHTML タグは小文字でなければなりません。
+- `export default` キーワードについて：[MDN](https://developer.mozilla.org/docs/web/javascript/reference/statements/export), [javascript.info](https://javascript.info/import-export)
+  
+`className="avatar"`は 文字列を渡すものですが   
+`src={user.imageUrl}`は JavaScript の user.imageUrl 変数の値を読み込み、その値を src 属性として渡します  
+`style={{}}` は `style={ }` という JSX内にある通常の `{}` オブジェクトです。  
+  
+
+
 # LEARN REACT
 ## [UI の記述](https://ja.react.dev/learn/describing-the-ui)  
 各セクションの概要  
