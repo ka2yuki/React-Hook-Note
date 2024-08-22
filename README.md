@@ -1,6 +1,6 @@
 [my React Projects Repositories](https://github.com/ka2yuki?tab=repositories&q=react&type=&language=&sort=)  
 
-# クイックスタートからの抜粋
+# クイックスタート抜粋
 ## コンポーネントの作成とネスト
 - Reactコンポーネント：マークアップを返すJavaScript 関数  
 - `<MyButton />` が大文字で始まっていることで React のコンポーネントであるということを示しています。常に大文字で始める必要がありHTML タグは小文字でなければなりません。
@@ -13,6 +13,12 @@
   
 ### 条件付きレンダー
 [コンテンツ出し分け：Code](https://ja.react.dev/learn#conditional-rendering)
+
+### リストのレンダー
+map関数 の使用例
+
+### イベントに応答する
+`<button onClick={handleClick}>`は *渡すだけ*。
 
 
 
