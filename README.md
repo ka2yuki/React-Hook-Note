@@ -45,6 +45,17 @@ React では、イベントを表す props には `onSomething` という名前�
 それらのイベントを処理するハンドラ関数の定義には `handleSomething` という名前を使うことが一般的です。  
 
 
+# なぜイミュータビリティが重要なのか 
+```js
+const squares = [null, null, null, null, null, null, null, null, null];
+const nextSquares = ['X', null, null, null, null, null, null, null, null];
+```
+元のデータの書き換えを行わないことで、いくつかの利点...[more read](https://ja.react.dev/learn/tutorial-tic-tac-toe#why-immutability-is-important)
+- データの過去のバージョンを壊すことなく保持し「巻き戻し」ができる
+- パフォーマンス上の理由から、影響を受けていないことが明らかなツリーの一部の再レンダーをスキップしたい場合があります。イミュータビリティにより、コンポーネントがデータが変更されたかどうかを非常に安価に比較することができます。
+
+
+
 
 # LEARN REACT
 ## [UI の記述](https://ja.react.dev/learn/describing-the-ui)  
