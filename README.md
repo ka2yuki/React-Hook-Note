@@ -45,7 +45,7 @@ React では、イベントを表す props には `onSomething` という名前�
 それらのイベントを処理するハンドラ関数の定義には `handleSomething` という名前を使うことが一般的です。  
 
 
-# なぜイミュータビリティが重要なのか 
+## なぜイミュータビリティが重要なのか 
 ```js
 const squares = [null, null, null, null, null, null, null, null, null];
 const nextSquares = ['X', null, null, null, null, null, null, null, null];
